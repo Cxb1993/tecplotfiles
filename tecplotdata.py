@@ -22,7 +22,7 @@ warnings.filterwarnings("ignore")
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-
+#
 def getargument(casefolder):
     Grid = float(casefolder.split("_")[5])
     mu = float(casefolder.split("_")[1])
